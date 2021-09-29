@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  redistimeseries:
+    image: redislabs/redistimeseries
+    restart: always
+    ports: 
+      - "6379:6379"
+    volumes:
+      - ./data:/data
+
+  # backend-service:
+  #   build: backend-api
+  #   ports:
+  #     - "8080:8080"

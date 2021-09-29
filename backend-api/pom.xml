@@ -36,6 +36,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--        add this to the documentatin-->
+        <dependency>
+            <groupId>com.redislabs</groupId>
+            <artifactId>jredistimeseries</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
